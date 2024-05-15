@@ -709,7 +709,7 @@ public:
         label_23->setText(QApplication::translate("Controller", "m/s", Q_NULLPTR));
         label_8->setText(QApplication::translate("Controller", "Current Velocity", Q_NULLPTR));
         label_10->setText(QApplication::translate("Controller", "Current Distance", Q_NULLPTR));
-        label_9->setText(QApplication::translate("Controller", "Target Distance", Q_NULLPTR));
+        label_9->setText(QApplication::translate("Controller", "Target Timegap", Q_NULLPTR));
         FV1CurVel->setText(QApplication::translate("Controller", "0", Q_NULLPTR));
         FV1TarDist->setText(QApplication::translate("Controller", "0", Q_NULLPTR));
         FV1Box->clear();
@@ -725,7 +725,7 @@ public:
 //        FV1_Right_LC->setText(QApplication::translate("Controller", "Right LC", Q_NULLPTR));
         LVGBOX->setTitle(QApplication::translate("Controller", "LV", Q_NULLPTR));
         LVCurDist->setText(QApplication::translate("Controller", "0", Q_NULLPTR));
-        label_13->setText(QApplication::translate("Controller", "Target Distance", Q_NULLPTR));
+        label_13->setText(QApplication::translate("Controller", "Target Timegap", Q_NULLPTR));
         label_15->setText(QApplication::translate("Controller", "Mode", Q_NULLPTR));
         LVCurVel->setText(QApplication::translate("Controller", "0", Q_NULLPTR));
         label_12->setText(QApplication::translate("Controller", "Current Velocity", Q_NULLPTR));
@@ -755,7 +755,7 @@ public:
         MTarDist->setText(QApplication::translate("Controller", "0", Q_NULLPTR));
         label_40->setText(QApplication::translate("Controller", "m", Q_NULLPTR));
         Send->setText(QApplication::translate("Controller", "send", Q_NULLPTR));
-        label_14->setText(QApplication::translate("Controller", "Target Distance", Q_NULLPTR));
+        label_14->setText(QApplication::translate("Controller", "Target Timegap", Q_NULLPTR));
         LV_MAP->setText(QApplication::translate("Controller", "LV", Q_NULLPTR));
         FV1_MAP->setText(QApplication::translate("Controller", "FV1", Q_NULLPTR));
         FV2_MAP->setText(QApplication::translate("Controller", "FV2", Q_NULLPTR));
@@ -782,7 +782,7 @@ public:
         label_5->setText(QApplication::translate("Controller", "Current Velocity", Q_NULLPTR));
         label_26->setText(QApplication::translate("Controller", "m", Q_NULLPTR));
         FV2TarVel->setText(QApplication::translate("Controller", "0", Q_NULLPTR));
-        label_6->setText(QApplication::translate("Controller", "Target Distance", Q_NULLPTR));
+        label_6->setText(QApplication::translate("Controller", "Target Timegap", Q_NULLPTR));
     } // retranslateUi
 
 };

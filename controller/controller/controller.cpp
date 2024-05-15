@@ -91,8 +91,8 @@ Controller::Controller(const std::shared_ptr<Ros2Node>& ros2_node, QWidget *pare
   MinVel = 0; // cm/s
   MaxVel = 9000; // cm/s
   int DefaultDist = 1400; // cm
-  MinDist = 300; // cm
-  MaxDist = 2000; // cm
+  MinDist = 0; // cm
+  MaxDist = 200; // cm
 
   /* Setup Velocity Slider */
   ui->MVelSlider->setMaximum(MaxVel);
